@@ -1,13 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pedro Victor</title>
+
+
+    <!--Bootstrap v4.4.1-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--Meu css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfólio - Pedro Victor</title>
 </head>
-<body>
-    <h1>E vamos nós!</h1>
-    <h2 style="color: red;">:D</h2>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#" >Pedro Victor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                <span>Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3" href="#formacao">Formação</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link  py-3 px-0 px-lg-3" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead bg-secondary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image -->
+            <img class="masthead-avatar mb-5" src="img/logo.png" alt="">
+
+            <!-- Masthead Heading -->
+            <h1 class="masthead-heading text-uppercase mb-0">Pedro Victor</h1>
+            
+            <!-- Icon Divider -->
+            <div class="content">
+
+                <hr class="gradient_line" />
+            </div>
+            <p class="masthead-subheading font-weight-light mb-0">Desenvolvedor Web</p>
+
+        </div>
+    </header>
+
+    <div class="container mt-5 mb-5" id="portfolio">
+        <h1 class="text-uppercase text-center text-Portfolio">Portfólio</h1>
+        <small class="smallTexto">Projetos desenvolvidos por mim</small>
+        <div class="card-deck">
+
+            <div class="card card1">
+                <img src="img/cards/card1.jpg" class="img-fluid card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Card title</h5>
+                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in
+                        to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-white">Last updated 3 mins ago</small>
+                    <a href="#" class="btn btn-outline-dark btn-sm float-right">Leia mais...</a>
+                </div>
+            </div>
+
+            <div class="card card2">
+                <img src="img/cards/card2.jpg" class="img-fluid card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Card title</h5>
+                    <p class="card-text text-white">This card has supporting text below as a natural lead-in to
+                        additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class=" text-white">Last updated 3 mins ago</small>
+                    <a href="#" class="btn btn-outline-dark btn-sm float-right">Leia mais...</a>
+                </div>
+            </div>
+
+            <div class="card card3">
+                <img src="img/cards/card3.jpg" class="img-fluid card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">Card title</h5>
+                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in
+                        to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-white">Last updated 3 mins ago</small>
+                    <a href="#" class="btn btn-outline-dark btn-sm float-right">Leia mais...</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="bg-danger text-white mb-5 pb-5 pt-5" id="formacao">
+        <h1 class="text-uppercase text-center text-formacao">Formação</h1>
+        <small class="smallTexto">Formação acadêmica / Atividades extracurriculares</small>
+
+        <div class="container">
+            <!-- About Section Content -->
+            <div class="row">
+                <div class="col-lg-4 ml-auto formacao1">
+                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                        includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
+                        stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4 mr-auto formacao2">
+                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
+                        dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container" id="contato">
+        <h1 class="text-contato text-center text-uppercase"> Contato</h1>
+        <small class="smallTexto">Contatos / Páginas de controlamento de versões</small>
+        <div class="center">
+            <div id="social-test">
+            <ul class="social">
+                <li><a href="https://github.com/peidrao"><i class="fa fa-github" aria-hidden="true"></a></i></li>
+                <li><a href="https://gitlab.com/peidrao"><i class="fa fa-gitlab" aria-hidden="true"></a></i></li>
+              <li><a href="https://twitter.com/peidrao"><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
+              <li><a href="https://instagram.com/peidrao"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/pedro-victor-74574313b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpctHBmrfHkxxsRzhvGpxdbRchDHVThfwjTgwRLFBFZtrhbwFTFDpzGzzdpzFDSwgDZFBb"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            </li>
+            </ul>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+
+            <div class="text-center text-white">
+
+                <p class="copyright-text">Copyright &copy; 2020 by: Pedro Victor</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Jquery v3.4.1-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--Bootstrap v4.4.1-->
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>

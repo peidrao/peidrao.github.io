@@ -1,0 +1,162 @@
+.navbar {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #b30014;
+}
+
+.bg-dark {
+    background-color: #161c22!important;
+}
+
+.footer {
+    background-color: #161c22;
+}
+
+.bg-danger {
+    background-color: #b30014!important;
+}
+
+#mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top .3s, padding-bottom .3s;
+}
+
+#mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1.75em;
+    transition: font-size .3s;
+}
+
+.masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+}
+
+.bg-secondary {
+    background-color: #b30014!important;
+}
+
+.content {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.masthead-heading {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.75em;
+}
+
+.masthead-subheading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.75em;
+}
+
+.gradient_line {
+    margin: 0 0 20px 0;
+    display: block;
+    border: none;
+    height: 3px;
+    background: #0071B9;
+    background: linear-gradient(to right, #b30014, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), #b30014);
+}
+
+.card {
+    background-color: #fff;
+    border: 12px solid rgba(0, 0, 0, .125) border-radius;
+}
+
+h3.card-title {
+    font-size: 1.5rem;
+}
+
+h5.card-subtitle {
+    font-size: 1.2rem;
+}
+
+p.card-text {
+    padding-bottom: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.card1 {
+    background-color: #b30014;
+}
+
+.card2 {
+    background-color: #b30014;
+}
+
+.card3 {
+    background-color: #b30014;
+}
+
+.btn-outline-dark {
+    border-color: #fff!important;
+    color: #fff!important;
+}
+
+.center {
+    display: table;
+    width: 100%;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social {
+    padding-left: 0px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social li a {
+    color: rgb(179, 0, 20);
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    padding: 1%;
+    border: 1px solid rgb(179, 0, 20);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+
+.social:hover>li {
+    opacity: 0.5;
+}
+
+.social:hover>li:hover {
+    opacity: 1;
+}
+
+.text-Portfolio, .text-contato {
+    color: rgb(179, 0, 20);
+    font-family: 'Bree Serif', serif;
+}
+
+.text-formacao {
+    font-family: 'Bree Serif', serif;
+}
+
+.smallTexto {
+    display: block;
+    text-align: center;
+    margin-bottom: 5em;
+}

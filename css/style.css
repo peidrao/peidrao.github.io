@@ -11,7 +11,7 @@ body {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #b30014;
+    color: #ff0033;
 }
 
 .bg-dark {
@@ -23,7 +23,7 @@ body {
 }
 
 .bg-danger {
-    background-color: #b30014!important;
+    background-color: #ff0033!important;
 }
 
 #mainNav {
@@ -44,7 +44,7 @@ body {
 }
 
 .bg-secondary {
-    background-color: #b30014!important;
+    background-color: #ff0033!important;
 }
 
 .content {
@@ -68,7 +68,7 @@ body {
     border: none;
     height: 3px;
     /* background: #0071B9; */
-    background: linear-gradient(to right, #b30014, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), #b30014);
+    background: linear-gradient(to right, hsl(353, 100%, 35%), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), #b30014);
 }
 
 .btn-outline-dark {

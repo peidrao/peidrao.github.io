@@ -56,6 +56,22 @@ img {
   background-color: #6269D8 ;
 }
 
+h2 {
+  text-align: center;
+}
+
+.social {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+
+li a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
 footer {
   color: #6269D8;
   font-weight: 900;

@@ -1,32 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;           
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
 body {
   padding: 0;
   margin: 0;
+  max-width: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: #1b1b1b;
 }
 
 header {
-  background: #555;
-  color: #fff;
+    background: #6269D8;
+    color: #fff;
 
-  padding: 20px;
+    padding: 20px;
 
-  display: flex;
-  justify-content: space-between;
-  font-weight: 900;
-  font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 .menuItems {
   font-weight: 300;
 }
 
-
 .about {
-  display: flex;
-  justify-content: space-between;
+  color: #fff;
+  padding: 20px 20px;
 }
 
 img {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.contact {
+  color: #fff;
+  background-color: #6269D8 ;
+}
+
+footer {
+  color: #6269D8;
+  font-weight: 900;
+  text-align:  center;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+

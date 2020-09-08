@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #555;
+  color: #fff;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.menuItems {
+  font-weight: 300;
+}
+
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}

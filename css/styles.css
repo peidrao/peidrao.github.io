@@ -53,7 +53,7 @@ img {
 
 .contact {
   color: #fff;
-  background-color: #6269D8 ;
+  background-color: #6269D8;
 }
 
 h2 {
@@ -61,16 +61,26 @@ h2 {
 }
 
 .social {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     list-style: none;
     text-align: center;
-}
+    text-decoration: none;
+  }
 
 li a {
   color: white;
   padding: 16px;
-  text-decoration: none;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 6px;
+  display: inline-block;
+  border: 1px solid #fff;
+  line-height: 70px;
 }
+
 
 footer {
   color: #6269D8;

@@ -41,13 +41,13 @@ header {
 }
 
 .column {
+    display: grid;
+    justify-content: center;
     flex: 1;
     margin: 2px;
     padding: 10px;
 }
 
-.column:first-child { margin-left: 0;  }
-.column:last-child { margin-right: 0;  }            
 
 
 img {
@@ -73,10 +73,8 @@ h2 {
   color: #fff;
   line-height: 75px;
   padding: 1%;
-  border: 1px solid #fff;
   cursor: pointer;
   margin-left: 10px;
-  margin-bottom: 20px;
   transition: ease .3s;
   font-size: 30px;
 }
